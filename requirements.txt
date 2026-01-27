@@ -1,7 +1,17 @@
-langchain
-langchain-core
-langchain-community
+# Core LLM / RAG stack
+langchain>=0.1.16
+langchain-core>=0.1.45
+langchain-community>=0.0.34
+
+# Document loaders
 pypdf
 pymupdf
+
+# Embeddings
 sentence-transformers
-chromadb
+
+# Vector DB (pinned to compatible version)
+chromadb==0.4.24
+
+# Pydantic compatibility
+pydantic<2
