@@ -15,3 +15,5 @@ chromadb==0.4.24
 
 # Pydantic compatibility
 pydantic<2
+openai
+langchain_openai

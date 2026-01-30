@@ -11,3 +11,6 @@ wheels/
 data/SUBREN
 env/
 notebook/data
+
+.env
+/data
